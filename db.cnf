@@ -1,0 +1,5 @@
+[mariadb]
+log_error=/dev/stderr
+slow_query_log=1
+slow_query_log_file=/dev/stdout
+long_query_time=5.0
