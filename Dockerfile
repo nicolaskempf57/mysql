@@ -1,3 +1,3 @@
-FROM mariadb:10
+FROM mysql:8
 
 COPY "db.cnf" "/etc/mysql/conf.d/config.cnf"
