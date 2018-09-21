@@ -15,7 +15,7 @@ before_script:
 after_script:
 - docker images
 
-build MariaDB:
+build MySQL:
   stage: build
   script:
   - docker build --pull --tag $CI_REGISTRY_IMAGE .
